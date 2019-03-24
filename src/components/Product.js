@@ -83,6 +83,7 @@ const ProductWrapper = styled.div`
     }
   }
   .img-container {
+    background-color:var(--mainWhite);
     position: relative;
     overflow: hidden;
   }
