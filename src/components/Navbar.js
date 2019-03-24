@@ -8,10 +8,14 @@ import {ButtonContainer} from './Button'
 
 export default class Navbar extends Component {
     render() {
+        const style ={
+            height:'50px',
+            width:'50px'
+        }
         return (
             <NavWrapper className="navbar navbar-expand-sm bg-info navbar-dark px-sm-5">
                 <Link>
-                    <img src={logo} alt="logo" className="navbar-brand"></img>
+                    <img src={logo} alt="logo" className="navbar-brand" style={style}></img>
                 </Link>
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
